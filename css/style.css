@@ -286,6 +286,7 @@ main {
       display: none; }
 
   main {
+    margin-left: calc(100vw - 100% + 74px);
     width: calc(968px + 40 * ((100vw - 1356px) / (1356 - 1024)));
     padding-left: calc(38px - (18 - 38) * ((100vw - 1356px) / (1356 - 1024)));
     padding-right: calc(40px - (20 - 40) * ((100vw - 1356px) / (1356 - 1024))); }
