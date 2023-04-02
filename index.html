@@ -1,324 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>test</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <nav>
-        <div class="logo">
-            <img src="./assets/nav/icon_logo.svg" />
-            <div>
-                <span class="">Dashboard</span>
-                v.01    
-            </div>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <aside>
+      <section class="logo">
+        <img alt="logo" src="./assets/nav/icon_logo.svg" />
+        <div>
+          <span class="">Dashboard</span>
+          v.01
         </div>
+      </section>
+      <nav>
         <ul>
-            <li>
-                 <i>
-                <img class="hover hide" src="./assets/nav/hover/icon_dashboard.svg" />
-                <img class="icon" src="./assets/nav/icon_dashboard.svg" />
-                <span>Dashboard</span>
+          <li>
+            <i>
+              <img
+                alt="dashboard"
+                class="hover hide"
+                src="./assets/nav/hover/icon_dashboard.svg"
+              />
+              <img
+                alt="dashboard"
+                class="icon"
+                src="./assets/nav/icon_dashboard.svg"
+              />
+              <span>Dashboard</span>
             </i>
-        </li>
-            <li>
-                <i>
-                    <img class="hover hide" src="./assets/nav/hover/icon_product.svg" />
-                    <img class="icon" src="./assets/nav/icon_product.svg" />
-                <span>Product</span>
-                <img class="arrow hover hide" src="./assets/nav/hover/icon_arrow.svg" />
-                <img class="arrow icon" src="./assets/nav/icon_arrow.svg" />
+          </li>
+          <li>
+            <i>
+              <img
+                alt="product"
+                class="hover hide"
+                src="./assets/nav/hover/icon_product.svg"
+              />
+              <img
+                alt="product"
+                class="icon"
+                src="./assets/nav/icon_product.svg"
+              />
+              <span>Product</span>
+              <img
+                alt="arrow"
+                class="arrow hover hide"
+                src="./assets/nav/hover/icon_arrow.svg"
+              />
+              <img
+                alt="arrow"
+                class="arrow icon"
+                src="./assets/nav/icon_arrow.svg"
+              />
             </i>
-        </li>
-            <li>
-                <i>
-                    <img class="hover hide" src="./assets/nav/hover/icon_customers.svg" />
-                    <img class="icon" src="./assets/nav/icon_customers.svg" />
-                <span>Customers</span>
-                <img class="arrow hover hide" src="./assets/nav/hover/icon_arrow.svg" />
-                <img class="arrow icon" src="./assets/nav/icon_arrow.svg" />
+          </li>
+          <li>
+            <i>
+              <img
+                alt="customers"
+                class="hover hide"
+                src="./assets/nav/hover/icon_customers.svg"
+              />
+              <img
+                alt="customers"
+                class="icon"
+                src="./assets/nav/icon_customers.svg"
+              />
+              <span>Customers</span>
+              <img
+                alt="arrow"
+                class="arrow hover hide"
+                src="./assets/nav/hover/icon_arrow.svg"
+              />
+              <img
+                alt="arrow"
+                class="arrow icon"
+                src="./assets/nav/icon_arrow.svg"
+              />
             </i>
-        </li>
-            <li>
-                <i>
-                    <img class="hover hide" src="./assets/nav/hover/icon_income.svg" />
-                    <img class="icon" src="./assets/nav/icon_income.svg" />
-                <span>Income</span>
-                <img class="arrow hover hide" src="./assets/nav/hover/icon_arrow.svg" />
-                <img class="arrow icon" src="./assets/nav/icon_arrow.svg" />
+          </li>
+          <li>
+            <i>
+              <img
+                alt="income"
+                class="hover hide"
+                src="./assets/nav/hover/icon_income.svg"
+              />
+              <img
+                alt="income"
+                class="icon"
+                src="./assets/nav/icon_income.svg"
+              />
+              <span>Income</span>
+              <img
+                alt="arrow"
+                class="arrow hover hide"
+                src="./assets/nav/hover/icon_arrow.svg"
+              />
+              <img
+                alt="arrow"
+                class="arrow icon"
+                src="./assets/nav/icon_arrow.svg"
+              />
             </i>
-        </li>
-            <li>
-                <i>
-                    <img class="hover hide" src="./assets/nav/hover/icon_promote.svg" />
-                    <img class="icon" src="./assets/nav/icon_promote.svg" />
-                <span>Promote</span>
-                <img class="arrow hover hide" src="./assets/nav/hover/icon_arrow.svg" />
-                <img class="arrow icon" src="./assets/nav/icon_arrow.svg" />
+          </li>
+          <li>
+            <i>
+              <img
+                alt="promote"
+                class="hover hide"
+                src="./assets/nav/hover/icon_promote.svg"
+              />
+              <img
+                alt="promote"
+                class="icon"
+                src="./assets/nav/icon_promote.svg"
+              />
+              <span>Promote</span>
+              <img
+                alt="arrow"
+                class="arrow hover hide"
+                src="./assets/nav/hover/icon_arrow.svg"
+              />
+              <img
+                alt="arrow"
+                class="arrow icon"
+                src="./assets/nav/icon_arrow.svg"
+              />
             </i>
-        </li>
-            <li>
-                <i>
-                    <img class="hover hide" src="./assets/nav/hover/icon_help.svg" />
-                    <img class="icon" src="./assets/nav/icon_help.svg" />
-                <span>Help</span>
-                <img class="arrow hover hide" src="./assets/nav/hover/icon_arrow.svg" />
-                <img class="arrow icon" src="./assets/nav/icon_arrow.svg" />
+          </li>
+          <li>
+            <i>
+              <img
+                alt="help"
+                class="hover hide"
+                src="./assets/nav/hover/icon_help.svg"
+              />
+              <img alt="help" class="icon" src="./assets/nav/icon_help.svg" />
+              <span>Help</span>
+              <img
+                alt="arrow"
+                class="arrow hover hide"
+                src="./assets/nav/hover/icon_arrow.svg"
+              />
+              <img
+                alt="arrow"
+                class="arrow icon"
+                src="./assets/nav/icon_arrow.svg"
+              />
             </i>
-            </li>
+          </li>
         </ul>
-    </nav>
+      </nav>
+    </aside>
     <main>
-        <div class="greeting">
-            Hello Evano 👋🏼,
+      <section class="greeting">Hello Evano 👋🏼,</section>
+      <section class="header">
+        <div class="title">
+          <h1>All Customers</h1>
+          <span>Active members</span>
         </div>
-        <div class="header">
-            <div class="name">
-                All Customers
-                <span>Active members</span>
-            </div>
-<div class="search">
-    <img src="./assets/nav/icon_search.svg" />
-    <input type="text" placeholder="Search" />
-</div>
+        <div class="search">
+          <img src="./assets/nav/icon_search.svg" >
+          <input type="text" placeholder="Search" >
         </div>
+      </section>
+      <section>
         <ul class="table">
-            <li class="title">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
+          <li class="title">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
             <div class="line"></div>
-            
-            <li class="info">
-                <div class="data customer-name">Jane Cooper</div>
-                <div class="data company">Microsoft</div>
-                <div class="data phone-number">(225) 555-0118</div>
-                <div class="data email">jane@microsoft.com</div>
-                <div class="data country">United States</div>
-                <div class="data active status">Active</div>
-            </li>
-            <li class="title mobile">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
-            <li class="info">
-                <div class="data customer-name">Floyd Miles</div>
-                <div class="data company">Yahoo</div>
-                <div class="data phone-number">(205) 555-0100</div>
-                <div class="data email">floyd@yahoo.com</div>
-                <div class="data country">Kiribati</div>
-                <div class="data inactive status">Inactive</div>
-            </li>
-            <li class="title mobile">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
-            <li class="info">
-                <div class="data customer-name">Ronald Richards</div>
-                <div class="data company">Adobe</div>
-                <div class="data phone-number">(302) 555-0107</div>
-                <div class="data email">ronald@adobe.com</div>
-                <div class="data country">Israel</div>
-                <div class="data inactive status">Inactive</div>
-            </li>
-            <li class="title mobile">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
-            <li class="info">
-                <div class="data customer-name">Marvin McKinney</div>
-                <div class="data company">Tesla</div>
-                <div class="data phone-number">(252) 555-0126</div>
-                <div class="data email">marvin@tesla.com</div>
-                <div class="data country">Iran</div>
-                <div class="data active status">Active</div>
-            </li>
-            <li class="title mobile">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
-            <li class="info">
-                <div class="data customer-name">Jerome Bell</div>
-                <div class="data company">Google</div>
-                <div class="data phone-number">(629) 555-0129</div>
-                <div class="data email">jerome@google.com</div>
-                <div class="data country">Réunion</div>
-                <div class="data active status">Active</div>
-            </li>
-            <li class="title mobile">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
-            <li class="info">
-                <div class="data customer-name">Kathryn Murphy</div>
-                <div class="data company">Microsoft</div>
-                <div class="data phone-number">(406) 555-0120</div>
-                <div class="data email">kathryn@microsoft.com</div>
-                <div class="data country">Curaçao</div>
-                <div class="data active status">Active</div>
-            </li>
-            <li class="title mobile">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
-            <li class="info">
-                <div class="data customer-name">Jacob Jones</div>
-                <div class="data company">Yahoo</div>
-                <div class="data phone-number">(208) 555-0112</div>
-                <div class="data email">jacob@yahoo.com</div>
-                <div class="data country">Brazil</div>
-                <div class="data active status">Active</div>
-            </li>
-            <li class="title mobile">
-                <div class="customer-name">Customer Name</div>
-                <div class="company">Company</div>
-                <div class="phone-number">Phone Number</div>
-                <div class="email">Email</div>
-                <div class="country">Country</div>
-                <div class="status">Status</div>
-            </li>
-            <li class="info">
-                <div class="data customer-name">Kristin Watson</div>
-                <div class="data company">Facebook</div>
-                <div class="data phone-number">(704) 555-0127</div>
-                <div class="data email">kristin@facebook.com</div>
-                <div class="data country">Åland Islands</div>
-                <div class="data inactive status">Inactive</div>
-            </li>
-        </ul>
-        <div class="footer">
-            <div class="showing">Showing data 1 to 8 of  256K entries</div>
-            <div class="pagination">
-                <i class="page">&lt;</i>
-                <i class="page">1</i>
-                <i class="page">2</i>
-                <i class="page">3</i>
-                <i class="page">4</i>
-                <i class="three-dots">...</i>
-                <i class="page">40</i>
-                <i class="page">&gt;</i>
+          </li>
 
-            </div>
+          <li class="info">
+            <div class="data customer-name">Jane Cooper</div>
+            <div class="data company">Microsoft</div>
+            <div class="data phone-number">(225) 555-0118</div>
+            <div class="data email">jane@microsoft.com</div>
+            <div class="data country">United States</div>
+            <div class="data active status">Active</div>
+          </li>
+          <li class="title mobile">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
+          </li>
+          <li class="info">
+            <div class="data customer-name">Floyd Miles</div>
+            <div class="data company">Yahoo</div>
+            <div class="data phone-number">(205) 555-0100</div>
+            <div class="data email">floyd@yahoo.com</div>
+            <div class="data country">Kiribati</div>
+            <div class="data inactive status">Inactive</div>
+          </li>
+          <li class="title mobile">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
+          </li>
+          <li class="info">
+            <div class="data customer-name">Ronald Richards</div>
+            <div class="data company">Adobe</div>
+            <div class="data phone-number">(302) 555-0107</div>
+            <div class="data email">ronald@adobe.com</div>
+            <div class="data country">Israel</div>
+            <div class="data inactive status">Inactive</div>
+          </li>
+          <li class="title mobile">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
+          </li>
+          <li class="info">
+            <div class="data customer-name">Marvin McKinney</div>
+            <div class="data company">Tesla</div>
+            <div class="data phone-number">(252) 555-0126</div>
+            <div class="data email">marvin@tesla.com</div>
+            <div class="data country">Iran</div>
+            <div class="data active status">Active</div>
+          </li>
+          <li class="title mobile">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
+          </li>
+          <li class="info">
+            <div class="data customer-name">Jerome Bell</div>
+            <div class="data company">Google</div>
+            <div class="data phone-number">(629) 555-0129</div>
+            <div class="data email">jerome@google.com</div>
+            <div class="data country">Réunion</div>
+            <div class="data active status">Active</div>
+          </li>
+          <li class="title mobile">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
+          </li>
+          <li class="info">
+            <div class="data customer-name">Kathryn Murphy</div>
+            <div class="data company">Microsoft</div>
+            <div class="data phone-number">(406) 555-0120</div>
+            <div class="data email">kathryn@microsoft.com</div>
+            <div class="data country">Curaçao</div>
+            <div class="data active status">Active</div>
+          </li>
+          <li class="title mobile">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
+          </li>
+          <li class="info">
+            <div class="data customer-name">Jacob Jones</div>
+            <div class="data company">Yahoo</div>
+            <div class="data phone-number">(208) 555-0112</div>
+            <div class="data email">jacob@yahoo.com</div>
+            <div class="data country">Brazil</div>
+            <div class="data active status">Active</div>
+          </li>
+          <li class="title mobile">
+            <div class="customer-name">Customer Name</div>
+            <div class="company">Company</div>
+            <div class="phone-number">Phone Number</div>
+            <div class="email">Email</div>
+            <div class="country">Country</div>
+            <div class="status">Status</div>
+          </li>
+          <li class="info">
+            <div class="data customer-name">Kristin Watson</div>
+            <div class="data company">Facebook</div>
+            <div class="data phone-number">(704) 555-0127</div>
+            <div class="data email">kristin@facebook.com</div>
+            <div class="data country">Åland Islands</div>
+            <div class="data inactive status">Inactive</div>
+          </li>
+        </ul>
+      </section>
+      <section class="footer">
+        <div class="showing">Showing data 1 to 8 of 256K entries</div>
+        <div class="pagination">
+          <i class="page">&lt;</i>
+          <i class="page">1</i>
+          <i class="page">2</i>
+          <i class="page">3</i>
+          <i class="page">4</i>
+          <i class="three-dots">...</i>
+          <i class="page">40</i>
+          <i class="page">&gt;</i>
         </div>
+      </section>
     </main>
     <script>
-        const NavItems = document.querySelectorAll("li i")
-        const imgs = document.querySelectorAll("img")
-        NavItems.forEach(item => {
-            item.onclick = function () {
-                document.querySelectorAll(".hover").forEach(item => item.classList.add("hide"))
-                document.querySelectorAll(".icon").forEach(item => item.classList.remove("hide"))
-                NavItems.forEach(item => item.classList.remove("active"))
-                item.querySelector(".arrow.hover")?.classList.remove("hide")
-                item.querySelector(".hover")?.classList.remove("hide")
-                item.querySelector(".arrow.icon")?.classList.add("hide")
-                item.querySelector(".icon")?.classList.add("hide")
-                item.classList.add("active")
-            }
-        })
-        const pages = document.querySelectorAll("i.page")
-        pages.forEach(item => {
-            item.onclick = function () {
-                pages.forEach(item => item.classList.remove("active"))
-                item.classList.add("active")
-            }
-        })
 
-        document.addEventListener('touchstart', handleTouchStart, false)
-        document.addEventListener('touchmove', handleTouchMove, false)
+        //Active nav section and active pagination active section
+      const NavItems = document.querySelectorAll("li i");
+      const imgs = document.querySelectorAll("img");
+      NavItems.forEach((item) => {
+        item.onclick = function () {
+          document
+            .querySelectorAll(".hover")
+            .forEach((item) => item.classList.add("hide"));
+          document
+            .querySelectorAll(".icon")
+            .forEach((item) => item.classList.remove("hide"));
+          NavItems.forEach((item) => item.classList.remove("active"));
+          item.querySelector(".arrow.hover")?.classList.remove("hide");
+          item.querySelector(".hover")?.classList.remove("hide");
+          item.querySelector(".arrow.icon")?.classList.add("hide");
+          item.querySelector(".icon")?.classList.add("hide");
+          item.classList.add("active");
+        };
+      });
+      const pages = document.querySelectorAll("i.page");
+      pages.forEach((item) => {
+        item.onclick = function () {
+          pages.forEach((item) => item.classList.remove("active"));
+          item.classList.add("active");
+        };
+      });
 
-        const logblock = document.querySelector("nav")
 
-        let x1 = null;
-        let y1 = null;
+      //Swipe to enable aside
 
-        function handleTouchStart(event) {
-    if (window.outerWidth > 1024) return false
+      document.addEventListener("touchstart", handleTouchStart, false);
+      document.addEventListener("touchmove", handleTouchMove, false);
 
-            const firstTouch = event.touches[0];
-            x1 = firstTouch.clientX;
-            y1 = firstTouch.clientY;
+      const logblock = document.querySelector("aside");
+
+      let x1 = null;
+      let y1 = null;
+
+      function handleTouchStart(event) {
+        if (window.outerWidth > 1024) return false;
+
+        const firstTouch = event.touches[0];
+        x1 = firstTouch.clientX;
+        y1 = firstTouch.clientY;
+      }
+
+      function handleTouchMove(event) {
+        if (window.outerWidth > 1024) return false;
+
+        if (!x1 || !y1) {
+          return false;
         }
+        let x2 = event.touches[0].clientX;
+        let y2 = event.touches[0].clientY;
 
-        function handleTouchMove(event) {
-    if (window.outerWidth > 1024) return false
-
-            if (!x1 || !y1) {
-                return false
+        let xDiff = x2 - x1;
+        let yDiff = y2 - y1;
+        if (Math.abs(xDiff) > Math.abs(yDiff)) {
+          if (xDiff > 0) {
+            logblock.style.position = "fixed";
+            logblock.style.display = "inline-table";
+            logblock.querySelector(".logo").style.display = "flex";
+            logblock.querySelector("nav").style.display = "block";
+            logblock.querySelector("ul").style.display = "flex";
+            logblock.querySelector("ul").style.flexDirection = "column";
+            logblock.style.zIndex = "4";
+            logblock.style.backgroundColor = "#fff";
+            if (window.outerWidth <= 768) {
+              logblock.style.width = "100vw";
+            } else {
+              logblock.style.width = "306px";
+              logblock.style.paddingLeft = "28px";
             }
-            let x2 = event.touches[0].clientX;
-            let y2 = event.touches[0].clientY;
-
-            let xDiff = x2 - x1;
-            let yDiff = y2 - y1;
-               if (Math.abs(xDiff) > Math.abs(yDiff)) {
-                if (xDiff > 0) {
-                    logblock.style.position = "fixed";
-                    logblock.style.display = "inline-table";
-                    logblock.querySelector(".logo").style.display = "flex";
-                    logblock.querySelector("ul").style.display = "flex";
-                    logblock.querySelector("ul").style.flexDirection = "column";
-                    logblock.style.zIndex = "4";
-                    logblock.style.backgroundColor = "#fff";
-                    if (window.outerWidth <= 768) {
-                        logblock.style.width = "100vw";
-                    } else {
-                        logblock.style.width = "306px";
-                        logblock.style.paddingLeft = "28px";
-                    }
-                    logblock.style.boxShadow = "0px 0px 20px 10px rgba(226, 236, 249, 0.7)";
-                }
-                if (xDiff < 0) {
-                    logblock.style.display = "none";
-                }
-               }
-            x1 = null;
-            y1 = null;
+            logblock.style.boxShadow =
+              "0px 0px 20px 10px rgba(226, 236, 249, 0.7)";
+          }
+          if (xDiff < 0) {
+            logblock.style.display = "none";
+          }
         }
+        x1 = null;
+        y1 = null;
+      }
 
-document.addEventListener( 'click', (e) => {
-    if (window.outerWidth > 1024) return false
-	const withinBoundaries = e.composedPath().includes(logblock);
- 
-	if ( ! withinBoundaries ) {
-		logblock.style.display = 'none'; 
-    	}
-})
+      document.addEventListener("click", (e) => {
+        if (window.outerWidth > 1024) return false;
+        const withinBoundaries = e.composedPath().includes(logblock);
+
+        if (!withinBoundaries) {
+          logblock.style.display = "none";
+        }
+      });
     </script>
-</body>
+  </body>
 </html>
