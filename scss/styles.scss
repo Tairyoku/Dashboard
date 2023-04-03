@@ -4,6 +4,7 @@ body {
   font-weight: 500;
   display: flex;
   margin: 0;
+  cursor: default;
 }
 aside {
   width: 306px;
@@ -43,6 +44,7 @@ aside {
   li {
     list-style: none;
     margin: 18px 0;
+    cursor: pointer;
     i {
       box-sizing: border-box;
       background-color: none;
@@ -175,8 +177,6 @@ main {
     letter-spacing: -0.01em;
     color: #292d32;
     text-align: start;
-
-   
     .data {
       display: flex;
       align-items: center;
@@ -274,6 +274,7 @@ main {
       .page {
         box-sizing: border-box;
         display: flex;
+        cursor: pointer;
         flex-direction: column;
         justify-content: center;
         align-items: center;
